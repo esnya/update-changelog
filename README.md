@@ -8,7 +8,12 @@
 Update [Unreleased] in CHANGELOG.md to current package version.
 
 ## Usage
-Add script `version` to `package.json`.
+1. Install with npm
+```bash
+$ npm install --save-dev update-changelog
+```
+
+2. Add script `version` to `package.json`.
 
 ```package.json
   "scripts": {
