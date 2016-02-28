@@ -2,7 +2,7 @@
   "name": "update-changelog",
   "version": "1.0.0",
   "description": "Update [Unreleased] in CHANGELOG.md to current package version.",
-  "bin": "src/update-changelog.js",
+  "bin": "./bin/update-changelog.js",
   "main": "index.js",
   "scripts": {
     "version": "node src/update-changelog.js && git add CHANGELOG.md",
