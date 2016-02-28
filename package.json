@@ -1,6 +1,6 @@
 {
   "name": "update-changelog",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Update [Unreleased] in CHANGELOG.md to current package version.",
   "bin": "./bin/update-changelog.js",
   "main": "index.js",
