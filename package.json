@@ -1,0 +1,29 @@
+{
+  "name": "update-changelog",
+  "version": "0.0.1",
+  "description": "Update [Unreleased] in CHANGELOG.md to current package version.",
+  "bin": "src/update-changelog.js",
+  "main": "index.js",
+  "scripts": {
+    "version": "node src/update-changelog.js && git add CHANGELOG.md",
+    "test": "eslint src && jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ukatama/update-changelog.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ukatama/update-changelog/issues"
+  },
+  "homepage": "https://github.com/ukatama/update-changelog#readme",
+  "dependencies": {
+    "fs-promise": "^0.4.1",
+    "moment": "^2.11.2"
+  },
+  "devDependencies": {
+    "eslint": "^2.2.0",
+    "jest-cli": "^0.8.2"
+  }
+}

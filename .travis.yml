@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+    - 5
+deploy:
+  provider: npm
+  email: dev.ukatama@gmail.com
+  api_key:
+    secure: FJgT+EeezjzX0ZWBvJg2myMnHryaSELNhKL19AkH9Gzu5t/EAzm8P4J/XD2X7LoY98OCqFY2rp/cAG7Hhl7lrB66lztThtNxqRv7G6w0UavyxW7EJIrI8xhytghAh1TiaTnGFFEZkj78LB4qwNV0wx8AFyVdtVXR1RRYSzcETuO6KNbVWec/Eonu7M58jucgK4sVauZH8LbO8izHH8t5Tfte5XoGSBXcSRYBH8mzHFlB1KtyxbJ0N7NouAzcWKp+XpPaQRhOrrS8u359rj2dFMnO6OUF2fowJuoW+o9B2/zZBP8N0+M9lP0zT8anKz2uTyqForOKul7dDDZw7n01beQnmqmSZYI9oTjwUD8Ja29otR4ESLw5wD5/m7ScVgwemZXZe7kY8DSuvsqXD9lZfVrwLAgzBibGdtpp4mJYzpbjf1LIlcryLA2Je8myOTz+zdnhoXgjtCBeq/knup9An3A+OAU9dwyVJgEhCpnTaIsfsIdvL7z29G/qPoYsnfzVohK3mXX3Hc8i8O0OTkj4Jjt4NvXAuHain5IyRie3UPs/GBE9gyn62n0S3QbR5F3MXeKH+0BDPGiUhxHgJej3N9ywnp4xkCogo8U9ogJTyVHxxYAt7fnhOGKZXb9OV6wePXiKeYW5PnoIfcmhTrKRJA7AcqonsDO81nlYZ8KHOdY=
+  on:
+    tags: true
+    repo: ukatama/update-changelog
