@@ -20,6 +20,7 @@ Update [Unreleased] in CHANGELOG.md to current package version.
       "version": "update-changelog && git add CHANGELOG.md"
     }
   ```
+
 ## Example
 ```
 $ git tag
