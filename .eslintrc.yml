@@ -1,4 +1,6 @@
 extends: eslint:recommended
+plugins:
+    - node
 parserOptions:
     ecmaVersion: 6
 globals:
@@ -6,3 +8,12 @@ globals:
 env:
     jest: true
     node: true
+rules:
+    node/no-missing-import: 2
+    node/no-missing-require: 2
+    node/no-unpublished-import: 2
+    node/no-unpublished-require: 2
+    node/no-unsupported-features:
+        - 2
+        - version: 5
+    node/shebang: 2

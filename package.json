@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "version": "node src/update-changelog.js && git add CHANGELOG.md",
-    "test": "eslint src && jest"
+    "test": "eslint src bin && jest"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,7 @@
   },
   "devDependencies": {
     "eslint": "^2.2.0",
+    "eslint-plugin-node": "^1.0.0",
     "jest-cli": "^0.8.2"
   }
 }
