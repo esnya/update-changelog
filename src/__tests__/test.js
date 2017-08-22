@@ -9,7 +9,7 @@ describe('update-changelog', () => {
     const tmp = path.join(__dirname, '../../tmp');
     const file = path.join(tmp, 'CHANGELOG.md');
 
-    pit('replaces [Unreleased]', () =>
+    it('replaces [Unreleased]', () =>
         fs.writeFile(file, '## [Unreleased]\n## [0.0.1]')
             .then(() =>
                 new Promise((resolve) => {
