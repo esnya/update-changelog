@@ -2,7 +2,7 @@ describe('update-changelog', () => {
     jest.autoMockOff();
 
     const fork = require('child_process').fork;
-    const fs = require('fs-promise');
+    const fs = require('mz/fs');
     const path = require('path');
 
     const bin = path.join(__dirname, '../update-changelog.js');

@@ -1,6 +1,6 @@
 'use strict';
 
-const fs = require('fs-promise');
+const fs = require('mz/fs');
 const moment = require('moment');
 
 const version = process.env.npm_package_version;
